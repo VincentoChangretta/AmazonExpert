@@ -14,7 +14,8 @@ export default {
         standartColorHover: "#FFAC38",
         invertedStandartColor: "#fff",
         invertedStandartColorHover: "#eee",
-        standartBlack: '#1a1a1a'
+        containerColor: "#f1f1f1",
+        standartBlack: "#1a1a1a",
       },
     },
   },

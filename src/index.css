@@ -7,18 +7,13 @@ body {
   @apply text-lg font-body text-standartBlack;
 }
 
-.wrapper {
-  @apply flex flex-col min-h-[100vh];
-}
-
 .container {
-  @apply max-w-[1260px] mx-auto px-[10px];
+  @apply max-w-[1260px] mx-auto p-[20px] my-[20px] rounded-[30px] bg-containerColor;
 }
 
 .inner {
   @apply flex items-center justify-between;
 }
-
 .btn {
   @apply inline-block max-w-[300px] w-full p-[15px] text-center rounded-standartRadius transition-all bg-standartColor text-white hover:bg-standartColorHover;
 }
@@ -28,10 +23,6 @@ body {
 
 .img {
   @apply w-full h-full object-cover rounded-standartRadius;
-}
-
-.main-inner{
-  @apply bg-gray-200 p-[20px] my-[20px] rounded-[30px]
 }
 
 section {

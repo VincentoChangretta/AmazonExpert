@@ -6,16 +6,14 @@ import { Navigation } from './Components/Global/Navigation'
 function App() {
   return (
     <>
-      <div className="wrapper">
-        <div className="container">
-          <div className="main-inner">
+      <div className="wrapper flex flex-col min-h-[100svh]">
+        <div className="container grow flex flex-col">
             <Header />
-            <main className='grow '>
+            <main className='grow'>
               <Navigation />
             </main>
             <Footer />
           </div>
-        </div>
       </div>
     </>
   )

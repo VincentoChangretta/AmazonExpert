@@ -1,11 +1,14 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Home } from '../Pages/Home/Home';
+import { PATHNAMES } from '../../../public/Constants';
+import { Test } from "../Pages/Test/Test"
 
 export const Navigation = () => {
     return (
         <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path={PATHNAMES.home} element={<Home />} />
+            <Route path={PATHNAMES.test} element={<Test />} />
         </Routes>
     );
 }

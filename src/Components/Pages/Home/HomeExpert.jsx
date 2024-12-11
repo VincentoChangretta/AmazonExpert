@@ -1,6 +1,7 @@
 import React from 'react';
 import { expert } from '../../../../public/ImgData';
 import { Link } from 'react-router-dom';
+import { PATHNAMES } from '../../../../public/Constants';
 
 export const HomeExpert = () => {
     return (
@@ -17,7 +18,7 @@ export const HomeExpert = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    <Link className='btn mx-auto'>Test</Link>
+                    <Link to={PATHNAMES.test} className='btn mx-auto'>Test</Link>
                 </div>
             </div>
         </section>
