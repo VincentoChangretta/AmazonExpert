@@ -16,6 +16,7 @@ export default {
         invertedStandartColorHover: "#eee",
         containerColor: "#f1f1f1",
         standartBlack: "#1a1a1a",
+        cardColor: "#fefefe"
       },
     },
   },
