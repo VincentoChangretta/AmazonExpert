@@ -31,11 +31,11 @@ section {
 }
 
 section .title {
-  @apply text-4xl font-extrabold mb-[40px];
+  @apply text-4xl font-extrabold mb-[20px];
 }
 
 section .subtitle {
-  @apply text-3xl font-extrabold mb-[20px];
+  @apply text-2xl font-extrabold mb-[40px];
 }
 section .subtitle.withIcon {
   @apply relative pl-[50px];
