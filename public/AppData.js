@@ -168,3 +168,9 @@ export const TestData = [
     answers: ["Nie", "Trochę", "Tak"],
   },
 ];
+
+export const resultsData = {
+  ResultsTo10: "Intensywne szkolenie (10 godzin)",
+  ResultsTo20: "Średnie wsparcie (5 godzin)",
+  ResultsTo30: "Doszlifowanie wiedzy (1 godzina)",
+}

@@ -14,7 +14,7 @@ export default {
         standartColorHover: "#FFAC38",
         invertedStandartColor: "#fff",
         invertedStandartColorHover: "#eee",
-        containerColor: "#f1f1f1",
+        containerColor: "#F8F8F8",
         standartBlack: "#1a1a1a",
         cardColor: "#fefefe",
         errorColor: "#EB4C42"
